@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fitpro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:5:5-44:19
+12        android:allowBackup="true"
+12-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\PRASAD\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity
+20-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:12:9-20:20
+21            android:name="com.example.fitpro.MainActivity"
+21-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:13:13-41
+22            android:theme="@style/LoginAppTheme" >
+22-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:14:13-49
+23            <intent-filter>
+23-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:15:13-19:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:16:17-69
+24-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:18:17-77
+26-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:18:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:21:9-78
+30            android:name="com.example.fitpro.Home"
+30-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:21:19-39
+31            android:theme="@style/LoginAppTheme" />
+31-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:21:40-76
+32        <activity
+32-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:22:9-24:50
+33            android:name="com.example.fitpro.Recipes"
+33-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:23:13-36
+34            android:parentActivityName="com.example.fitpro.Home" />
+34-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:24:13-47
+35        <activity
+35-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:25:9-27:50
+36            android:name="com.example.fitpro.BmiCal"
+36-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:26:13-35
+37            android:parentActivityName="com.example.fitpro.Home"
+37-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:27:13-47
+38            android:theme="@style/LoginAppTheme" />
+38-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:26:36-72
+39        <activity
+39-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:28:9-30:50
+40            android:name="com.example.fitpro.HealthyFood"
+40-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:29:13-40
+41            android:parentActivityName="com.example.fitpro.Home" />
+41-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:30:13-47
+42        <activity android:name="com.example.fitpro.DetailFood" />
+42-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:31:9-48
+42-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:31:19-45
+43        <activity
+43-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:32:9-34:57
+44            android:name="com.example.fitpro.GainWt"
+44-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:33:13-35
+45            android:parentActivityName="com.example.fitpro.HealthyFood" />
+45-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:34:13-54
+46        <activity
+46-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:35:9-37:57
+47            android:name="com.example.fitpro.LossWt"
+47-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:36:13-35
+48            android:parentActivityName="com.example.fitpro.HealthyFood" />
+48-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:37:13-54
+49        <activity
+49-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:38:9-39:52
+50            android:name="com.example.fitpro.DetailRecipes"
+50-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:38:19-48
+51            android:parentActivityName="com.example.fitpro.Recipes" />
+51-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:39:13-50
+52
+53        <meta-data
+53-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:41:9-43:57
+54            android:name="preloaded_fonts"
+54-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:42:13-43
+55            android:resource="@array/preloaded_fonts" />
+55-->F:\React Apps\FitPro\app\src\main\AndroidManifest.xml:43:13-54
+56    </application>
+57
+58</manifest>

@@ -1,0 +1,4 @@
+#Thu May 28 09:53:34 IST 2020
+base.0=F\:\\React Apps\\FitPro\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

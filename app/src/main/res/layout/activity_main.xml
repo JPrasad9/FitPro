@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fit"
+    android:foregroundGravity="center_vertical|center|center_horizontal"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:text="Fit Pro"
+        android:textColor="#816A0E"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aclonica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="345dp"
+        android:layout_margin="70dp"
+        android:background="#26070707"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="252dp"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:textColorHighlight="#161616"
+            android:textColorHint="#DFD9B4"
+            android:textColorLink="#080809" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="249dp"
+            android:layout_height="57dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="bottom"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColorHighlight="#F6F8F8"
+            android:textColorHint="#DDCCB2"
+            android:textColorLink="#F0EDED" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#DD9649"
+            android:onClick="mainpage"
+            android:text="Login"
+            android:textColor="#5A3802" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

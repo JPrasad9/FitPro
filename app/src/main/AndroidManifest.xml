@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitpro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/LoginAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" android:theme="@style/LoginAppTheme"/>
+        <activity
+            android:name=".Recipes"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".BmiCal" android:theme="@style/LoginAppTheme"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".HealthyFood"
+            android:parentActivityName=".Home" />
+        <activity android:name=".DetailFood" />
+        <activity
+            android:name=".GainWt"
+            android:parentActivityName=".HealthyFood" />
+        <activity
+            android:name=".LossWt"
+            android:parentActivityName=".HealthyFood" />
+        <activity android:name=".DetailRecipes"
+            android:parentActivityName=".Recipes"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
